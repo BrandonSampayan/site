@@ -1,0 +1,27 @@
+#header
+  display: flex
+  justify-content: center
+  align-items: center
+  font-size: 30px
+  margin: 0 0 50px 0
+  a
+    padding: 10px 30px
+    color: #999
+    position: relative
+    overflow: hidden
+    &:after
+      content: ''
+      position: absolute
+      bottom: 0
+      left: 0
+      right: 0
+      height: 1px
+      background-color: blue
+      transform: translateY(1px)
+      transition: all 0.8s ease
+    &.active
+      color: $primary_active_color
+      transition: all 0.8s ease
+      &:after
+        transform: translate(0px)
+        transition: all 0.8s ease

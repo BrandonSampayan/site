@@ -5,7 +5,7 @@ export default class extends Component {
   render() {
     return (
       <PageTransition>
-        Home
+        About
       </PageTransition>
     )
   }

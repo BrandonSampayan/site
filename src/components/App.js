@@ -3,14 +3,15 @@ import '../styles/index.sass'
 
 import React, { Component } from 'react'
 import Header from './Header'
+import { AppEntrance } from '../config/transitions'
 
 export default class extends Component {
   render() {
     return (
-      <div>
+      <AppEntrance>
         <Header />
         {this.props.children}
-      </div>
+      </AppEntrance>
     )
   }
 }
