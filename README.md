@@ -22,5 +22,5 @@ Lastly, run ```npm start``` to launch dev server.
 TBD
 
 ## Conventions / Linting
-- Backticks (``) are required instead of double or single quotes for better <a href="http://es6-features.org/" target="_blank">ES6</a> support.<br> This is excused for import statements.
+- Backticks (``) are required instead of double or single quotes for better <a href="http://es6-features.org/" target="_blank">ES6</a> support.<br> This is excused for import and require statements.
 - Semicolons are only used in code that will be in prod and not minified before build.
