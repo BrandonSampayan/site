@@ -1,7 +1,7 @@
 import React from 'react'
 import { TransitionMotion, spring } from 'react-motion'
 
-export function PageTransition({ children }) {
+export function PageTransition({children}) {
   return (
     <TransitionMotion
       willEnter={() => ({x: 0})}
@@ -14,7 +14,7 @@ export function PageTransition({ children }) {
             <div
               key={key}
               style={{opacity: style.x}}>
-                { children }
+                {children}
               </div>
           )}
         </div>
@@ -23,7 +23,7 @@ export function PageTransition({ children }) {
   )
 }
 
-export function AppEntrance({ children }) {
+export function AppEntrance({children}) {
   return (
     <TransitionMotion
       willEnter={() => ({x: 0})}
@@ -36,7 +36,7 @@ export function AppEntrance({ children }) {
             <div
               key={key}
               style={{opacity: style.x}}>
-                { children }
+                {children}
               </div>
           )}
         </div>
