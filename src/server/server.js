@@ -29,8 +29,8 @@ app.post(`/api/contact`, (req, res) => {
   var mailOptions = {
     from: `Generation Church <GEN_CHURCH_EMAIL>`,
     to: `GEN_CHURCH_EMAIL`,
-    subject: `Thanks for reaching out!`,
-    html: `<h3>Here's what you said:</h3><ul><li>${req.body.name}</li><li>${req.body.subject}</li><li>${req.body.message}</li></ul>`
+    subject: `You got some mail`,
+    html: `<h3>Here's what they said:</h3><ul><li>${req.body.name}</li><li>${req.body.subject}</li><li>${req.body.message}</li></ul>`
   }
 
   transporter.sendMail(mailOptions, (error, info) => {
