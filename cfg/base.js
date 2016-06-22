@@ -1,13 +1,6 @@
-'use strict';
-let path = require('path');
-let defaultSettings = require('./defaults');
-
-// Additional npm or bower modules to include in builds
-// Add all foreign plugins you may need into this array
-// @example:
-// let npmBase = path.join(__dirname, '../node_modules');
-// let additionalPaths = [ path.join(npmBase, 'react-bootstrap') ];
-let additionalPaths = [];
+let path = require('path')
+let defaultSettings = require('./defaults')
+let additionalPaths = []
 
 module.exports = {
   additionalPaths: additionalPaths,
@@ -43,7 +36,7 @@ module.exports = {
       require('autoprefixer')({
         browsers: ['last 2 versions', 'ie >= 8']
       })
-    ];
+    ]
   },
   module: {}
-};
+}
