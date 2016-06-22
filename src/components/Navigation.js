@@ -5,7 +5,8 @@ export default class extends Component {
   render() {
     var links = [
       { to: `/`, text: `Home`},
-      { to: `/About`, text: `About`}
+      { to: `/About`, text: `About`},
+      { to: `/Contact`, text: `Contact`}
     ]
 
     return (
