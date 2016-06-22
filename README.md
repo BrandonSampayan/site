@@ -19,5 +19,4 @@ Lastly, run ```npm start``` to launch dev server.
 
 ## Conventions / Linting
 - Backticks (``) are required instead of double or single quotes for better <a href="http://es6-features.org/" target="_blank">ES6</a> support.<br> This is excused for import statements.
-- Semicolons are only used in code that will not be minified for prod.
-- 4 space indentation globally.
+- Semicolons are only used in code that will be in prod and not minified before build.
