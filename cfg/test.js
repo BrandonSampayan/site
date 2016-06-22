@@ -1,3 +1,5 @@
+'use strict'
+
 let path = require('path')
 let srcPath = path.join(__dirname, '/../src/')
 
