@@ -17,7 +17,7 @@ Generation Church's brand site at generationaz.org.
 Install <a href="https://nodejs.org/en/">Node</a>.<br>
 Clone or download this repo.<br>
 From your terminal inside the project directory, run ```npm install```.<br>
-Lastly, run ```npm start``` to launch dev server.
+Run ```npm start``` to launch dev server.
 
 ## Production
 TBD
